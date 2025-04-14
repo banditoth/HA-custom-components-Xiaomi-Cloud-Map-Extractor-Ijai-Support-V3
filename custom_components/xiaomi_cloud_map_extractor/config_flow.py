@@ -6,7 +6,7 @@ from typing import Any, Self, Mapping
 import voluptuous as vol
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
 from homeassistant.const import (CONF_HOST, CONF_TOKEN, CONF_MAC, CONF_USERNAME, CONF_PASSWORD, CONF_MODEL,
-                                 CONF_DEVICE_ID, CONF_NAME)
+                                 CONF_DEVICE_ID, CONF_NAME, CONF_COUNTRY )
 from homeassistant.core import callback
 from homeassistant.helpers.aiohttp_client import async_create_clientsession
 from homeassistant.helpers.device_registry import format_mac
